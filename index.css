@@ -1,0 +1,208 @@
+.custom-text {
+	font-size: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
+	align-self: center
+}
+.nav-text {
+	font-size: 30px;
+	font-weight: 100;
+	padding-right: 25px;
+	padding-left: 25px;
+	align-self: center;
+	transition: 1s;
+	width: 10vw;
+	text-align: center;
+}
+.nav-text a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.nav-text-selected {
+	font-weight: 400; color: #17B2D4;
+}
+.nav-text:hover {
+	color: #22b9c4;
+    transition: 0.3s;
+	font-size: 35px;
+	cursor: pointer;
+	}
+
+p {
+	margin: 0px
+}
+
+.red-box {
+	/*background-color: red;*/
+	margin-top: 7vh;
+	height: 8vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+
+.green-box {
+	/*background-color: green;*/
+	height: 30vh;
+	}
+
+.blue-box {
+	/*background-color: blue;*/
+	height: 10vh;
+	text-align: center
+}
+
+.yellow-box {
+	/*background-color: yellow;*/
+	height: 12vh;
+	text-align: center
+}
+
+.cyan-box {
+	/*background-color: cyan;*/
+	height: 28vh
+}
+
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+	
+.profile-picture {
+	height: 90%;
+	align-self: center;
+}
+ 
+ .flex-box {
+ 	display: flex;
+ 	justify-content: center;
+ }
+ .gradient-text {
+ 	font-size: 50px;
+	padding-right: 25px;
+	padding-left: 25px;
+	align-self: center;
+ 	background: -webkit-linear-gradient(#12B1D8, #C8DFBF);
+ 	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+ }
+section{
+	height: 100vh;
+
+}
+.portfolio {
+
+}
+
+.first-box {
+	/*background-color: red;*/
+	height: 50vh;
+	width: 60vw;
+	margin-top: 2vh;
+	display: flex;
+	flex-direction: row;
+}
+.two-squares {
+	/*background-color: green;*/
+	height: 50vh;
+	width: 50vw;
+}
+.two-rectangles {
+	display: flex;
+	flex-direction: row;
+	/*background-color: pink;*/
+	height: 25vh;
+	width: 29vw;
+}
+.small-squares{
+
+	/*background-color: gray;*/
+	height: 25vh; 
+	width: 15vw;
+}
+/*.two-rectangles-x {
+	display: flex;
+	flex-direction: row;
+	background-color: cyan;
+	height: 25vh;
+	width: 29vw;
+}*/
+.donut {
+	background-image: url(donut_sq.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	transition: transform .2s;
+}
+.couch {
+	background-image: url(couch_sq.png);
+	background-size: cover;
+	transition: transform .2s;
+}
+.wallpaper {
+	background-image: url(fire.png);
+	background-size: cover;
+	background-position: center;
+	transition: transform .2s;
+}
+.moon {
+	background-image: url(moon.png);
+	background-size: cover;
+	background-position: center;
+	transition: transform .2s;
+}
+.large-donut{
+	background-image: url(donut_sq.png);
+	transition: transform .2s;
+}
+.wide-rectangle{
+	display: flex;
+	flex-direction: row;
+	/*background-color: cyan;*/
+	height: 25vh;
+	width: 60vw;
+	margin-top: 2vh;
+}
+.seventy {
+	/*background-color: black;*/
+	background-image: url(wallpaper.png);
+	background-size: cover;
+	background-position: top;
+	height: 25vh;
+	width: 42vw;
+	transition: transform .2s;
+}
+.thirty {
+	/*background-color: blue;*/
+	background-image: url(shoe.png);
+	background-size: cover;
+	background-position: center;
+	/*background-repeat: no-repeat;*/
+	height: 25vh;
+	width: 18vw;
+	transition: transform .2s;
+}
+.donut:hover{
+	transform: scale(0.9);
+}
+.couch:hover{
+	transform: scale(0.9);
+}
+.wallpaper:hover{
+	transform: scale(0.9);
+}
+.moon:hover{
+	transform: scale(0.9);
+}
+.large-donut:hover{
+	transform: scale(0.92);
+}
+.seventy:hover{
+	transform: scale(0.9);
+}
+.thirty:hover{
+	transform: scale(0.9);
+}
